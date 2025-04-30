@@ -15,6 +15,12 @@ body {
   align-items: center;
 }
 
+.header-title {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
 #sobre {
     display:flex;
     flex-direction: column;
@@ -40,11 +46,31 @@ body {
     text-align: center;
   }
   
-  header nav a {
-    margin: 0 10px;
-    color: #ffc107;
-    text-decoration: none;
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0.5rem;
   }
+  
+  nav a {
+    text-decoration: none;
+    color: #f2e3d5;
+    font-family: 'Georgia', serif;
+    padding: 0.6rem 1.2rem;
+    border-radius: 12px;
+    background: linear-gradient(145deg, #2c1e2e, #1b1b1b);
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.5), inset 0 0 6px rgba(255,255,255,0.03);
+    transition: all 0.3s ease;
+  }
+  
+  nav a:hover {
+    background: #a78e63;
+    color: #1b1b1b;
+    transform: scale(1.05);
+    box-shadow: 2px 2px 12px rgba(167, 142, 99, 0.6);
+  }
+  
   
   section {
     padding: 20px;
