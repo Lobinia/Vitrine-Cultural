@@ -1,6 +1,2 @@
-document.getElementById('form-artista').addEventListener('submit', function (e) {
-    e.preventDefault();
-    alert('Obrigado por se inscrever! Em breve entraremos em contato.');
-    this.reset();
-  });
-  
+/* Script para a Vitrine Cultural */
+// Validações frontend podem ser adicionadas aqui no futuro
